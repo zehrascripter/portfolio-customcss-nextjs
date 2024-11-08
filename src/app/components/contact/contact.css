@@ -1,0 +1,118 @@
+.contact-section {
+    position: relative;
+    color: #333;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+  }
+  
+  .map-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e0e0e0;
+  }
+  
+  .contact-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0;
+  }
+  
+  .contact-form {
+    width: 100%;
+    max-width: 33%;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+  }
+  
+  .contact-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .contact-description {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .input-label {
+    display: block;
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-field,
+  .textarea-field {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .input-field:focus,
+  .textarea-field:focus {
+    border-color: #f7e019;
+  }
+  
+  .textarea-field {
+    height: 8rem;
+    resize: none;
+  }
+  
+  .submit-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #717171;
+    
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 1024px) {
+    .contact-title {
+      font-size: 1.75rem;
+    }
+  
+    .contact-form {
+      max-width: 50%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact-title {
+      font-size: 1.5rem;
+    }
+  
+    .contact-form {
+      max-width: 90%;
+    }
+  }
+  

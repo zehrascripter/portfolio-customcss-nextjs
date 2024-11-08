@@ -1,0 +1,79 @@
+.footer-container {
+    width: 80%;
+    margin: auto;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+    align-items: center;
+
+  }
+  
+  .footer {
+    font-family: 'Arial', sans-serif;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .logo {
+    width: 70px;
+    height: auto;
+    margin-right: 0.75rem;
+  }
+  
+  .footer-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #e8e8e8;
+  }
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 1rem;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+  }
+  
+  .youtube-icon {
+    font-size: 2rem;
+    color: #7e7c7c;
+    transition: color 0.3s ease;
+  }
+  
+  .youtube-icon:hover {
+    color: #ff0000;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .footer-title {
+      font-size: 1.125rem;
+    }
+  
+    .footer-logo {
+      margin-bottom: 1rem;
+    }
+    .social-links {
+      margin-top: 1.5rem;
+    }
+  }
+  
